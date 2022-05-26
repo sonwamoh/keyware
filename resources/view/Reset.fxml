@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="resetPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1316.0" style="-fx-background-image: url('file:resources/images/background.png');" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ResetController">
+   <children>
+      <VBox fx:id="loginVBox" layoutX="288.0" layoutY="-30.0" prefHeight="960.0" prefWidth="770.0" scaleX="0.89" scaleY="0.89" scaleZ="0.89" style="-fx-background-color: #FDFDFD; -fx-background-radius: 25; -fx-alignment: CENTER;">
+         <children>
+            <ImageView fitHeight="419.0" fitWidth="419.0" style="visibility: true;">
+               <image>
+                  <Image url="file:resources/images/lock.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="usernameField" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="480.0" promptText="Username" style="-fx-border-radius: 20; -fx-background-color: #E4E4E4; -fx-font-family: Serif; -fx-alignment: center; -fx-font-size: 23; -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%); -fx-text-fill: #666666;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Font" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="newPasswordField" layoutX="10.0" layoutY="657.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="480.0" promptText="New Password" style="-fx-border-radius: 20; -fx-background-color: #E4E4E4; -fx-font-family: Serif; -fx-alignment: center; -fx-font-size: 23; -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%); -fx-text-fill: #666666;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Font" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <VBox.margin>
+                  <Insets bottom="25.0" />
+               </VBox.margin>
+            </TextField>
+            <ComboBox fx:id="securityQuestions" prefHeight="35.0" prefWidth="480.0" promptText="Security Questions" visibleRowCount="5">
+               <VBox.margin>
+                  <Insets bottom="25.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="143.0" />
+               </padding>
+            </ComboBox>
+            <TextField fx:id="securityQAnswer" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="35.0" prefWidth="480.0" promptText="Security Question Answer" style="-fx-border-radius: 20; -fx-background-color: #E4E4E4; -fx-font-family: Serif; -fx-alignment: center; -fx-font-size: 23; -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%); -fx-text-fill: #666666;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Font" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <VBox.margin>
+                  <Insets bottom="25.0" />
+               </VBox.margin>
+            </TextField>
+            <Text fx:id="warningMessage" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Serif; -fx-font-size: 24; -fx-fill: #5F5F5F;" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Text>
+            <Button fx:id="resetButton" mnemonicParsing="false" onAction="#resetPassword" prefHeight="34.0" prefWidth="179.0" style="-fx-border-radius: 20; -fx-background-color: #80B3FF; -fx-font-family: Serif; -fx-font-size: 20;" text="Reset Password" textAlignment="CENTER" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin></Button>
+            <Button fx:id="cancelButton" mnemonicParsing="false" onAction="#cancelButton" prefHeight="30.0" prefWidth="85.0" style="-fx-border-radius: 20; -fx-font-family: Serif; -fx-font-size: 20; -fx-background-color: white;" text="Cancel" textAlignment="CENTER" underline="true">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</Pane>

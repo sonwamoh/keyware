@@ -1,0 +1,9 @@
+
+.combo-box .text-field {
+    -fx-prompt-text-fill: #ffffff ;
+}
+
+.combo-box>.list-cell {
+    -fx-alignment: center;
+    -fx-translate-x: 20;
+}
