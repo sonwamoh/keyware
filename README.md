@@ -17,13 +17,23 @@ Detailed Design
 <img width="500" hieght="500" alt="uml3" src="https://user-images.githubusercontent.com/101231709/211541428-e3954f78-17b4-4b25-ab57-a80f4f894ead.png">
 <br>
 4.Login Page
+<br>
 <img width="500" hieght="500" alt="img1" src="https://user-images.githubusercontent.com/101231709/211541437-53d81cf8-97ea-4e56-bae5-a3626ef19843.png">
 <br>
 5.Sign Up Page
+<br>
 <img width="500" hieght="500" alt="img3" src="https://user-images.githubusercontent.com/101231709/211541447-eda20d72-5f6b-41c1-85c6-e5ac2113f17b.png">
+<br>
 <img width="500" hieght="500" alt="img2" src="https://user-images.githubusercontent.com/101231709/211541455-8172ee27-d59f-4691-9d75-1960147e7760.png">
+<br>
 <img width="500" hieght="500" alt="img4" src="https://user-images.githubusercontent.com/101231709/211541463-9993fcde-b87c-4d44-a4f7-3b3146888bb8.png">
+<br>
 <img width="500" hieght="500" alt="img5" src="https://user-images.githubusercontent.com/101231709/211541472-c3bb7878-35ab-417e-9895-a8cbf65944dd.png">
+<br>
 <img width="500" hieght="500" alt="img6" src="https://user-images.githubusercontent.com/101231709/211541481-2a33614c-ac6b-4cc6-a79d-46b8ce685acb.png">
+<br>
 <img width="500" hieght="500" alt="img7" src="https://user-images.githubusercontent.com/101231709/211541490-bc865e1f-eedf-4307-b418-7134a2087f78.png">
+<br>
 <img width="500" hieght="500" alt="img8" src="https://user-images.githubusercontent.com/101231709/211541501-8fd0c46e-d831-4b4e-b0ca-a079409ec1e0.png">
+<br>
+
